@@ -25,6 +25,12 @@ int leitura() {
     return valor;
 }
 
+/**
+ * Programa principal.
+ *
+ * @param argc
+ * @param argv
+ */
 int main(int argc, char** argv) {
     /**
      * Declara e instancia a lista.
@@ -189,6 +195,18 @@ int main(int argc, char** argv) {
             case 13:
             {
                 cout << "\nLista está vazia : " << lista.estaVazia() << endl;
+                break;
+            }
+            //Opção de saída do programa
+            case 99:
+            {
+                cout << "\nSaindo do programa!";
+                break;
+            }
+                //Opção inválida do menu
+            default:
+            {
+                cout << "\nOpção inválida!";
                 break;
             }
         }//Fim switch
