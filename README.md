@@ -4,7 +4,7 @@
 - Utiliza uma lista simplesmente encadeada para manter os elementos da Lista<br>
 - Não utiliza vetor para o armazenamento.<br>
 
-### O programa possu 3 classes:<br>
+### O programa possui 3 classes:<br>
 - No - Objeto armazenado na lista.<br>
 - Lista - Gerencia os objetos do tipo No na lista simplesmente encadeada.<br>
 - Principal - Instância a lista e acessa as operações através de um menu de opções.<br>
